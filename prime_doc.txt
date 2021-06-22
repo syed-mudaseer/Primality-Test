@@ -1,0 +1,19 @@
+Read.me:
+
+Algorithm: Miller-Robin Algorithm
+
+It is a probablistic algorithm with Time Comlexity of O(log3(n)) which is significantly faster than current deterministic AKS test. Currently it is the fastest method for primality testing.
+
+As it is a probablisitc method, initial error rate is .25 when iter=1.
+As iteration increases the error rate decreases.
+
+Optimal iterations=40.Thus error rate= (0.24)^40 which is close to 0.
+
+This error rate is good for a exchange of speed with accuracy.
+
+Resources:
+https://math.mit.edu/research/highschool/primes/materials/2014/Narayanan.pdf
+https://stackoverflow.com/questions/6325576/how-many-iterations-of-rabin-miller-should-i-use-for-cryptographic-safe-primes
+https://www.geeksforgeeks.org/primality-test-set-3-miller-rabin/
+https://titanwolf.org/Network/Articles/Article?AID=524959e6-9034-46d0-8bf9-a68e18e1aab4#gsc.tab=0
+
